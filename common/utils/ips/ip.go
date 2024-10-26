@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"huo-core/common/utils/https"
+	"github.com/leijeng/huo-core/common/utils/https"
 	"io"
 	"net"
 	"net/http"

@@ -4,3 +4,10 @@
 static/uploadfile
 main.exe
 *.exe
+temp/
+!temp
+vendor
+**/**.log
+# go sum
+go.sum
+
