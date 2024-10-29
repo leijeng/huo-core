@@ -90,9 +90,9 @@ func Run() {
 		}
 	}()
 
-	fmt.Println(text.Green(`Dilu github:`) + text.Blue(`https://github.com/baowk/dilu`))
-	fmt.Println(text.Green("Dilu Server started ,Listen: ") + text.Red("[ "+addr+" ]"))
-	fmt.Println(text.Yellow("Dilu Go Go Go ~ ~ ~ "))
+	fmt.Println(text.Green(`Huo github:`) + text.Blue(`https://github.com/leijeng/huo-core`))
+	fmt.Println(text.Green("Huo Server started ,Listen: ") + text.Red("[ "+addr+" ]"))
+	fmt.Println(text.Yellow("Huo Go Go Go ~ ~ ~ "))
 
 	if Cfg.Server.Mode != ModeProd.String() {
 		//fmt.Printf("Swagger %s %s start\r\n", docs.SwaggerInfo.Title, docs.SwaggerInfo.Version)
